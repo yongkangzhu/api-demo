@@ -29,6 +29,7 @@ namespace api_demo.Controllers
             var rng = new Random();
             _logger.LogInformation("sssss");
             _logger.LogInformation("sssss");
+            _logger.LogInformation("sssss");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
